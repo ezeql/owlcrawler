@@ -2,6 +2,12 @@
 
 It's a distributed web crawler that uses [nats.io](http://nats.io) to coordinate work, written in Go.
 
+##requirements
+
+* Go
+* node
+* grunt
+
 ## Dependencies
 
 * CouchDB 1.x (tested on 1.6.1)
@@ -72,5 +78,6 @@ go build && ./webapp -alsologtostderr=true
 
 ```
 cd webapp
+npm install
 grunt serve
 ```
